@@ -5,7 +5,8 @@ gem 'rails', '3.2.14'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'activerecord-jdbcsqlite3-adapter'
+gem 'activerecord-jdbc-adapter'
+gem 'jdbc-mysql'
 
 gem 'jruby-openssl'
 
@@ -34,6 +35,9 @@ gem 'jquery-rails'
 
 # Deploy with Capistrano
 # gem 'capistrano'
+gem 'rubyzip', '< 1.0.0'
+gem 'warbler'
+gem 'jruby-lint'
 
 # To use debugger
 # gem 'debugger'
